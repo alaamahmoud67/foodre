@@ -28,9 +28,9 @@ color: white;
 }
 
 .hero-header {
-  background-image: url("http://localhost:3000/image/heroBg-Ce9qioFl.png");
+background-image: url("../src/image/heroBg-Ce9qioFl.png");
+ background-position: center center;
 
-  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -270,17 +270,17 @@ color: white;
 .back-img{
   /*
   width: 100%; */
-  background-image: url("http://localhost:3000/image/c1.jpg");
+  background-image: url("../src/image/c1.jpg");
   background-position: center;
   background-size: cover;
 }
 .bak-img{
-  background-image: url("http://localhost:3000/image/c3.jpg");
+  background-image: url("../src/image/c3.jpg");
   background-position: center;
   background-size: cover;
 }
 .ba-img{
-  background-image: url("http://localhost:3000/image/c4.jpg");
+  background-image: url("../src/image/c4.jpg");
   background-position: center;
   background-size: cover;
 }

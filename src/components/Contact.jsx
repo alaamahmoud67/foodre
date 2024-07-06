@@ -2,7 +2,7 @@ import React from 'react'
 import { useState ,useEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-
+import img8 from '../image/about-banner.png';
 export default function Contact() {
     const[user, setUser] = useState(
         {
@@ -123,7 +123,7 @@ export default function Contact() {
         <div className="col-lg-6">
           <div className="card-shadow">
             <img
-              src="image/about-banner.png"
+              src={img8}
               className="img-fluid"
             />
           </div>

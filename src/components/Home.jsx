@@ -1,5 +1,12 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import im11 from '../image/hero-BCogpiE1.png'
+import im2 from '../image/leaf-C1v4Wmxv.png'
+import im3 from '../image/lemon-B-yhuoNo.png'
+
+import im4 from '../image/kiwi-Do64hCSg.png'
+import im5 from '../image/tomato-BArVx_-y.png'
+import im6 from '../image/apple-B3cOfIDT.png'
 
 import Header from './Header'
 import RecipeCard from './RecipeCard'
@@ -33,7 +40,7 @@ export default function Home() {
   </Link>
   </div>
   <div className="col-lg-6 text-center text-lg-end overflow-hidden" data-aos="zoom-in" data-aos-delay="500" >
-    <img className="img-fluid" src="image/hero-BCogpiE1.png" alt="" />
+    <img className="img-fluid" src={im11} alt="" />
   </div>
 </div>
 
@@ -49,10 +56,10 @@ export default function Home() {
 
 </div>
 <div className='p pp' data-aos="fade-right">
-<img src="image/leaf-C1v4Wmxv.png" alt="" className='w-50' />
+<img src={im2} alt="" className='w-50' />
 </div>
 <div className='p' style={{right:" 0"}} data-aos="fade-up">
-<img src="image/lemon-B-yhuoNo.png" alt="" className='w-75' />
+<img src= {im3} alt="" className='w-75' />
 </div>
 <div className='row'>
 <div className='col-lg-12 mt-5 z-2 '>
@@ -65,7 +72,7 @@ export default function Home() {
 
   </div>
 <div className='p pp'style={{left:"40%"}} data-aos="fade-left">
-<img src="image/kiwi-Do64hCSg.png" alt="" className='w-75' />
+<img src={im4} alt="" className='w-75' />
 </div>
 </div>
 </div>
@@ -79,10 +86,10 @@ export default function Home() {
   </Link>
 
 <div className='p  pp'data-aos="fade-left">
-<img src="image/tomato-BArVx_-y.png" alt="" className='w-50' />
+<img src={im5} alt="" className='w-50' />
 </div>
 <div className='p pp' style={{right:" 0" }}>
-<img src="image/apple-B3cOfIDT.png" alt="" className='w-50' />
+<img src={im6} alt="" className='w-50' />
 </div>
 </div>
 
