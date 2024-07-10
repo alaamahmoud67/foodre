@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import { Link } from 'react-router-dom'
+import im2 from '../image/Frame.png'
 
 export default function Header() {
   return (
@@ -10,7 +11,7 @@ export default function Header() {
     <div className="container-fluid">
        
           <Link to="/">
-          <img src="image/Frame.png" height={50} alt="CoolBrand" />
+          <img src={im2} height={50} alt="CoolBrand" />
           </Link>
        
 
